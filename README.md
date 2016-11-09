@@ -159,13 +159,9 @@ endif
 
 @startuml
 title CdPlayer Activity Diagram 
-
 (*) --> "CHECK_SWITCH OFF"
-   
     if "" then
          -->[TRUE] "END"
-         
-        
     else
         -->[FALSE] "CHECK_SWITCH_OPenClose_tray = 0"
                 if " " then 
@@ -183,7 +179,6 @@ title CdPlayer Activity Diagram
           
                 endif
     endif
-
 @enduml
 
 ![](http://www.plantuml.com/plantuml/img/bP9XIyCm48Q_twzukKyg3Fm3oaRQig7OuIP-a562kyr0LgMDGl-zJJiqtTPL3q8ktFicpuMZSUbquJvtbfnnLg3MSwihAJ1vTURBk0gHqTj2xq1qSNM9qUWMhAQnkiiMpxEbcY9D4YO0Vi5im0pt9dbpRAAsl2mVd-8LE7w8-BT0dKHiAHHwaidzmfl2rx9qBhcoxwLahj0LRd0TNBWF3u6M0aV58we3g7rqQ0vzBHbxWlH3SkuJ_XyzC8TjzEe6__X4zBPsfis6cmTTFzAcWNfU1XqrxP-qag_D9b1Glw3DQ5plVgw_0G00)
@@ -204,15 +199,11 @@ title CdPlayer Activity Diagram
           endif
           endif
           endif
-
 @enduml
 @startuml
 (*) --> "CHECK_SWITCH = OFF"
-   
     if " " then
          -->[TRUE] "END"
-         
-        
     else
         -->[FALSE] "CHECK_SWITCH_HOT = 0"
                 if " " then 
