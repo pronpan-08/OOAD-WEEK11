@@ -147,7 +147,6 @@ else
             START_FAN --> (*)
         else
             -->[FALSE]"STOP_FAN"
-            
         endif
 endif
 @enduml
@@ -176,7 +175,6 @@ title CdPlayer Activity Diagram
                                 trayClose --> (*)
                                 END --> (*)
                             endif
-          
                 endif
     endif
 @enduml
@@ -217,7 +215,6 @@ title CdPlayer Activity Diagram
                                 START --> (*)
                                 END --> (*)
                             endif
-          
                 endif
     endif
 
